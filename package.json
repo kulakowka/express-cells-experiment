@@ -1,5 +1,5 @@
 {
-  "name": "Components",
+  "name": "express-cells-experiment",
   "version": "0.0.1",
   "description": "",
   "main": "app/server.js",
