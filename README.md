@@ -83,9 +83,9 @@ app.get('/', (req, res) => {
 const Component = require('component')
 
 class Comment extends Component {
-  show (data) {
-    data.time = Date.now()
-    return this.render(data)
+  show () {
+    this.data.time = Date.now()
+    return this.render(this.data)
   }
 }
 
@@ -102,8 +102,8 @@ module.exports = Comment
 const Component = require('component')
 
 class User extends Component {
-  show (data) {
-    return `${data.firstName} ${data.lastName}`
+  show () {
+    return `${this.data.firstName} ${this.data.lastName}`
   }
 }
 

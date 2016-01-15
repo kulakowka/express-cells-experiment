@@ -3,8 +3,8 @@
 const Component = require('component')
 
 class User extends Component {
-  show (data) {
-    return `${data.firstName} ${data.lastName}`
+  show () {
+    return `${this.data.firstName} ${this.data.lastName}`
   }
 }
 
