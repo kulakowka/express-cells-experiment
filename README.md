@@ -3,6 +3,7 @@ Experiment with [jade](http://jade-lang.com/) and [express.js](http://expressjs.
 #### Start server 
 
 ```bash
+npm install
 npm start
 ```
 
